@@ -12,6 +12,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
         title: 'irregular square',
         theme: ThemeData(),
-        home: const IrregularSquareView(),
+        home: IrregularSquareView(),
       );
 }
