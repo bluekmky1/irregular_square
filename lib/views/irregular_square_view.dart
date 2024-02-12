@@ -38,7 +38,7 @@ class IrregularSquareView extends StatelessWidget {
                       child: TitleWidget(),
                     ),
                     ...List<dynamic>.generate(
-                      7,
+                      5,
                       (int index) => Stack(
                         children: <Widget>[
                           IrregularSquareWidget(
@@ -79,6 +79,10 @@ class IrregularSquareView extends StatelessWidget {
                         ],
                       ),
                     ),
+                    const Padding(
+                      padding: EdgeInsets.symmetric(vertical: 20),
+                      child: Text('copyright 2022. Michael Martinho'),
+                    )
                   ],
                 ),
               ),
