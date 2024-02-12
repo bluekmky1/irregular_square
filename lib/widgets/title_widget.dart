@@ -17,13 +17,14 @@ class TitleWidget extends StatelessWidget {
               'Real Estate \nis Hard.',
               textAlign: TextAlign.center,
               style: TextStyle(
+                color: Color(0xFF363732), //글씨
                 fontSize: 50,
               ),
             ),
             Align(
               alignment: Alignment.bottomCenter,
               child: Transform.rotate(
-                angle: pi * 357 / 180,
+                angle: pi * 355 / 180,
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     color: const Color.fromRGBO(230, 223, 213, 0.7),
